@@ -1,0 +1,2 @@
+# adaptogen
+Аdaptive page template
