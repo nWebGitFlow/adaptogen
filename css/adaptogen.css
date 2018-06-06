@@ -1,0 +1,85 @@
+a, abbr, address, article, aside, audio, blockquote, body, canvas, caption, cite, code, col, colgroup, 
+dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, iframe, img, input, ins, kbd, label, legend, li, 
+nav, noscript, object, ol, output, p, picture, pre, progress, q, samp, section, span, summary, 
+table, tbody, td, textarea, tfoot, th, thead, time, tr, ul, video {
+	margin: 0;
+	padding: 0;
+	border: none;
+	vertical-align: top; 
+	box-sizing: border-box;
+}
+
+
+:root {
+	/*Начальные размеры главного фрейма адаптивной страницы*/
+	/*ВАЖНО! Имена ширины и высоты фрейма являются зарезервированными именами и изменению не подлежат*/
+	--frame-width: 1440px;  
+	--frame-height: 900px; 
+	--frame-left: 0px;  
+	--frame-top: 0px; 
+	/*Иные глобальные переменные (например):*/
+	/*– размеры независимых блоков в px, стоящих поверх главного фрейма страницы*/
+	/*– абсолютное положение независимых блоков в px, отмеренное от левой и верхней границ 
+	    видового порта родительского элемента*/
+	/*– иные свойства стилей в пикселях*/
+	--eye-width: 200px;
+	--eye-height: 200px;
+	--eye-left: 0px;
+	--eye-top: -3px;
+
+	--moon-width: 228px;
+	--moon-height: 228px;
+	--moon-left: 1139px;
+	--moon-top: 7px;
+
+	--stone1-width: 190px;
+	--stone1-height: 190px;
+	--stone1-left: 68px;
+	--stone1-top: 553px;
+
+	--stone2-width: 285px;
+	--stone2-height: 285px;
+	--stone2-left: 629px;
+	--stone2-top: 436px;
+
+	--stone3-width: 400px;
+	--stone3-height: 210px;
+	--stone3-left: 819px;
+	--stone3-top: 680px;
+
+
+	/*--key-color: #e8bd11;*/
+	--key-width: 73px;  
+	--key-height: 73px;  
+	--key-left: 713px;  
+	--key-top: 570px;  
+	
+	
+}
+
+html {
+    height:100%;
+    width:100%;
+	font-size: 16px; 
+	line-height: 1; 
+	/*– свойство line-height рекомендуется всегда использовать 
+		с безразмерным коэффициентом межстрочного интервала */
+}
+
+body {
+	background-color: #090202;
+}
+
+/*Имя идентификатора главного фрейма страницы не изменять*/
+#center-block {
+    display: block;
+    position: absolute;
+    width: var(--frame-width);
+    height: var(--frame-height);
+    left: var(--frame-left);
+    top: var(--frame-top);
+	background-color: #abb88e;
+}
+
+

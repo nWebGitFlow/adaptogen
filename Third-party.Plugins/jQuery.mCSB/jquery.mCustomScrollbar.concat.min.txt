@@ -1,0 +1,3 @@
+// jQuery.mCustomScrollbar - плагин jQuery, изменяющий внешний вид панели прокрутки.
+// See about jQuery custom content scroller on
+// http://manos.malihu.gr/jquery-custom-content-scroller/ 
